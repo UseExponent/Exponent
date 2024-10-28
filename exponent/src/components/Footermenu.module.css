@@ -1,8 +1,7 @@
-.nav {
-    display: flex;
-    gap: 14px;
-  }
-  .active {
-    color: red;
-    font-weight: bold;
-  }
+.active {
+  font-weight: bold;
+  border: 1px solid #f1f1f1dd;
+  background: #333;
+  color: #fff !important;
+  box-shadow: 1px 1px 3px #cecece, -1px -1px 3p  #fff;
+}

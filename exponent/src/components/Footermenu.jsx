@@ -1,14 +1,49 @@
 import { NavLink } from 'react-router-dom'
 import styles from './Footermenu.module.css'
+import styled from "styled-components";
+
+const FooterMenu = styled.footer`
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  nav{
+    position: relative;
+    min-height: 3rem;
+    padding: .5rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 1rem;
+    a{
+      display: flex;
+      max-width: 50px;
+      max-height: 50px;
+      width: 100%;
+      height: 100%;
+      border: 1px solid #f1f1f1dd;
+      box-shadow: 1px 1px 3px #cecece, -1px -1px 3p  #fff;
+      border-radius: 10px;
+
+      justify-content: center;
+      align-items: center;
+      color: #333;
+      transition: all .25s;
+    }
+  }
+`
 
 const navigations = [
-  { to: '/', label: 'Home' },
-  { to: '/about', label: 'About' }
+  { to: '/Main', label: '홈' },
+  { to: '/Table', label: '테이블' },
+  { to: '/Object', label: '목적' },
+  { to: '/Search', label: '검색' },
+  { to: '/User', label: '사용자' },
 ]
 
 export default function Footermenu() {
     return (
-      <footer>
+      <FooterMenu>
         <nav className={styles.nav}>
           {navigations.map(nav => (
             <NavLink
@@ -19,7 +54,7 @@ export default function Footermenu() {
             </NavLink>
           ))}
         </nav>
-      </footer>
+      </FooterMenu>
     )
   }
 
