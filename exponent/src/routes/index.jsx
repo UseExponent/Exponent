@@ -7,15 +7,13 @@ import Object from './pages/Object'
 import Search from './pages/Search'
 import User from './pages/User'
 import NotFound from './pages/Notfound'
+import LongObject from './pages/subPages/LongObject'
+import Discovery from './pages/subPages/Discovery'
 
 const router = createBrowserRouter([
   {
     element: <DefaultLayout />,
     children: [
-      {
-        path: '/',
-        element: <Home />
-      },
       {
         path: '/Main',
         element: <Main />
@@ -37,10 +35,22 @@ const router = createBrowserRouter([
         element: <User />
       },
       {
+        path: '/Object/LongObject',
+        element: <LongObject />
+      },
+      {
+        path: '/Search/Discovery',
+        element: <Discovery />
+      },
+      {
         path: '/*',
         element: <NotFound />
       }
     ]
+  },
+  {
+    path: '/',
+    element: <Home />
   }
 ])
 
