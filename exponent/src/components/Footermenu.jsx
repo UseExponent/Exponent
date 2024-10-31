@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import styles from './Footermenu.module.css'
+import styles from '../assets/Footermenu.module.css'
 import styled from "styled-components";
 
 const FooterMenu = styled.footer`

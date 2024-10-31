@@ -8,7 +8,7 @@ const Section = styled.section`
   margin: 0 auto;
 `
 
-export default function User() {
+export default function Follower() {
 
   return (
     <Section>
@@ -16,10 +16,8 @@ export default function User() {
         <Link to="/User" className="Back">뒤로</Link>
       </div>
       <div>
-        <div>
-          <p>팔로워</p>
-          <input type="text" />
-        </div>
+        <p>팔로워</p>
+        <input type="text" />
       </div>
       <div>
         <div>
@@ -44,15 +42,9 @@ export default function User() {
                     <Button>팔로우</Button>
                 </Link>
             </li>
+            <Button>맨위</Button>
         </ol>
       </div> 
-
-      <ol>
-        <li>History</li>
-        <li>Shared</li>
-        <li>Organization</li>
-      </ol>
-
     </Section>
   )
 }

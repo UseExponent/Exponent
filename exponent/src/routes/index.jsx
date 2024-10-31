@@ -9,6 +9,9 @@ import User from './pages/User'
 import NotFound from './pages/Notfound'
 import LongObject from './pages/subPages/LongObject'
 import Discovery from './pages/subPages/Discovery'
+import Follower from './pages/subPages/follower'
+import Following from './pages/subPages/following'
+import Reward from './pages/subPages/reward'
 
 const router = createBrowserRouter([
   {
@@ -41,6 +44,18 @@ const router = createBrowserRouter([
       {
         path: '/Search/Discovery',
         element: <Discovery />
+      },
+      {
+        path: '/User/Follower',
+        element: <Follower />
+      },
+      {
+        path: '/User/Following',
+        element: <Following />
+      },
+      {
+        path: '/User/reward',
+        element: <Reward />
       },
       {
         path: '/*',
