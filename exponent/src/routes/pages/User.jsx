@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import Button from "../../components/button";
 import { Link } from "react-router-dom";
 
 const Section = styled.section`
@@ -13,20 +12,31 @@ export default function User() {
   return (
     <Section>
       <div>
-        <p>Explore</p>
-        <input type="text" />
+        <Link to="/User/Option" className="Option"></Link>
+        <Link to="/User/Edit" className="Edit"></Link>
       </div>
-      <Link to="/Search/Discovery" className="Discovery">
-        <dl>
-          <li>50살에 부자 해보기</li>
-          <li>꿈 이뤄보기</li>
-        </dl>
-      </Link>
+      <div>
+        <div>
+          <Link to="/User/Follower" className="Follower"><img src="Profile" alt="Profile" /></Link>
+          <p>hnnnnnmin</p>
+          <p>정신상태불량</p>
+        </div>
+        <div>
+          <span>프로필 편집</span>
+          <span>프로필 공유</span>
+        </div>
+      </div>
       <dl>
-        <li>꿈을 위해 다가가기</li>
-        <li>부자를 위해 돈 모으기</li>
-        <Button>편집</Button>
+        <li><Link to="/User/Follower" className="Follower">팔로워</Link></li>
+        <li><Link to="/User/Following" className="Following">팔로잉</Link></li>
+        <li><Link to="/User/reward" className="reward">리워드</Link></li>
       </dl>
+      <ol>
+        <li>History</li>
+        <li>Shared</li>
+        <li>Organization</li>
+      </ol>
+
     </Section>
   )
 }
