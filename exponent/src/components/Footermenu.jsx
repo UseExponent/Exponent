@@ -7,6 +7,7 @@ const FooterMenu = styled.footer`
   left: 0px;
   bottom: 0px;
   width: 100%;
+  z-index: 999;
   nav{
     position: relative;
     min-height: 3rem;

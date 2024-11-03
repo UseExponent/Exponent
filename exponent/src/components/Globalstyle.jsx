@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
     License: none (public domain)
     */
     html{
-        font-size:62.5%;
+        background: ${({ theme }) => theme.Background};
     }
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
