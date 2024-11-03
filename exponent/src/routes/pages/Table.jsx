@@ -14,11 +14,11 @@ export default function Table() {
   return (
     <Section>
       <div>
-        <p>Table</p>
+        <p>TimeTable</p>
         <p>{format(dateFns,'yyyy-MM-dd')}</p>
         <input type="text" />
       </div>
-      <div className="streak">
+      <div>
         <div>
           <h1>Streak</h1>
         </div>
