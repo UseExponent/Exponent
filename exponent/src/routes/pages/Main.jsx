@@ -18,9 +18,32 @@ const MainStyled = styled.div`
   }
   .bottom{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 40% 60%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    height: calc(99vh - 5rem - 10rem);
     margin-top: 1rem;
+    gap: .5rem;
+    .TimeTalble{
+      grid-row: 1 / 4;
+    }
+    div{
+      display: grid;
+      place-items: center;
+      background-color: ${({ theme }) => theme.Background};
+      color: ${({ theme }) => theme.darkBlue};
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-weight: bold;
+      box-shadow:
+      6px 6px 6px rgba(0,0,0,0.05),
+      -6px -6px 6px rgba(255,255,255,0.6),
+      inset 2px 2px 5px rgba(0,0,0,0.03),
+      inset -2px -2px 5px rgba(255,255,255,0.4);
+      transition: all 0.3s;
+    }
   }
 `
 

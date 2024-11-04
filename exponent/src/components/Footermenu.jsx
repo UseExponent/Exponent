@@ -1,13 +1,15 @@
 import { NavLink } from 'react-router-dom'
 import styles from '../assets/Footermenu.module.css'
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faHouse ,faTable, faDiagramProject, faMagnifyingGlass, faUser} from '@fortawesome/free-solid-svg-icons'
 
 const FooterMenu = styled.footer`
   position: fixed;
   left: 0px;
   bottom: 0px;
   width: 100%;
-  z-index: 999;
+  z-index: 9999;
   nav{
     position: relative;
     min-height: 3rem;
@@ -16,6 +18,19 @@ const FooterMenu = styled.footer`
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 1rem;
+    background-color: ${({ theme }) => theme.darkBlue};
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    box-shadow:
+    6px 6px 6px rgba(0,0,0,0.05),
+    -6px -6px 6px rgba(255,255,255,0.6),
+    inset 2px 2px 5px rgba(0,0,0,0.03),
+    inset -2px -2px 5px rgba(255,255,255,0.4);
+    transition: all 0.3s;
     a{
       display: flex;
       max-width: 50px;
@@ -28,18 +43,18 @@ const FooterMenu = styled.footer`
 
       justify-content: center;
       align-items: center;
-      color: #333;
+      color: #fff;
       transition: all .25s;
     }
   }
 `
 
 const navigations = [
-  { to: '/Main', label: '홈' },
-  { to: '/Table', label: '테이블' },
-  { to: '/Object', label: '목적' },
-  { to: '/Search', label: '검색' },
-  { to: '/User', label: '사용자' },
+  { to: '/Main', label: <FontAwesomeIcon icon={faHouse} /> },
+  { to: '/Table', label: <FontAwesomeIcon icon={faTable} /> },
+  { to: '/Object', label: <FontAwesomeIcon icon={faDiagramProject} /> },
+  { to: '/Search', label: <FontAwesomeIcon icon={faMagnifyingGlass} /> },
+  { to: '/User', label: <FontAwesomeIcon icon={faUser} /> },
 ]
 
 export default function Footermenu() {
