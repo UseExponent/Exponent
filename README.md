@@ -1,7 +1,6 @@
 # EXPONENT
+![스크린샷, 2024-11-04 20-12-52](https://github.com/user-attachments/assets/b27ae526-0bb7-4b5b-b52b-692cc9793954)
 
-![스크린샷__2024-10-27_14-53-23-removebg-preview](https://github.com/user-attachments/assets/26a2df4f-92e4-4340-be65-1b065509c4af)
-![스크린샷__2024-10-27_14-54-33-removebg-preview](https://github.com/user-attachments/assets/529e8838-7755-4295-ad7f-43eacf8c3b9a)
 
 <!-- #5CC6BA, #57BA83, #499AE9, #60BEF9, #499AE6, #2F6EAF -->
 
