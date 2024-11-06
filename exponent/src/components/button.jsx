@@ -2,35 +2,32 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledButton = styled.button`
-  /* 공통 스타일 */
   all:unset;
   display: inline-flex;
-  outline: none;
+  justify-content: center;
+  align-items: center;
+  width: 88%;
+  background-color: ${({ theme }) => theme.Background};
+  color: ${({ theme }) => theme.darkBlue};
+  border-radius: 8px;
   border: none;
-  border-radius: 4px;
-  color: white;
-  font-weight: bold;
+  outline: none;
   cursor: pointer;
+  font-weight: bold;
+  box-shadow:
+  6px 6px 6px rgba(0,0,0,0.05),
+  -6px -6px 6px rgba(255,255,255,0.6),
+  inset 2px 2px 5px rgba(0,0,0,0.03),
+  inset -2px -2px 5px rgba(255,255,255,0.4);
+  transition: all 0.3s;
   padding-left: 1rem;
   padding-right: 1rem;
-
-  /* 크기 */
   height: 2.25rem;
   font-size: 1rem;
-
-  /* 색상 */
-  background: ${({ theme }) => theme.Blue};
   &:hover {
     background: ${({ theme }) => theme.middleBlue};
   }
-  &:active {
-    background: ${({ theme }) => theme.darkBlue}
-  }
 
-  /* 기타 */
-  & + & {
-    margin-left: 1rem;
-  }
 `;
 
 function Button({ children, ...rest }) {

@@ -67,7 +67,7 @@ export default function Main() {
         </div>
         <div className="bottom">
           {/* 각각의 모듈화 */}
-          <div className="TimeTalble">TimeTalble</div>
+          <div className="TimeTalble">TimeTable</div>
           <div className="Time/Score">Time/Score</div>
           <div className="Diary">Diary</div>
           <div className="Todo">Todo</div>
