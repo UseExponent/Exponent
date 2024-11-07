@@ -149,10 +149,9 @@ const MainStyled = styled.div`
     .menu{
         padding: .8rem;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         position: relative;
-        width: 88%;
         height: fit-content;
         text-align: center;
         margin: 2rem 0;
@@ -160,11 +159,12 @@ const MainStyled = styled.div`
         font-size: ${({ theme }) => theme.md};
         font-weight: bold;
         label{
-            margin-right: 2rem;
+            margin-right: 4rem;
         }
         a{
             color: ${({ theme }) => theme.darkBlue};
-            font-size: ${({ theme }) => theme.md};
+            font-size: ${({ theme }) => theme.sm};
+            margin-left: 1rem;
         }
     }
   }
@@ -200,7 +200,7 @@ export default function Home() {
                     </form>
                     <div className="menu">
                         <input type="checkbox" id="login"/>
-                        <label id="login">로그인 상태 유지</label> 
+                        <label for="login">로그인 상태 유지</label> 
                         {/* URL - KeepLogin=false or true*/}
                         <a href="#">비밀번호 재설정</a>
                         <a href="#">회원가입</a>
