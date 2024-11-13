@@ -98,103 +98,8 @@ const MainStyled = styled.div`
   }
 `
 
-const TimeList = styled.div`
-  color: ${({ theme }) => theme.darkBlue};
-  gap: 4rem;
-  width: 150%;
-  height: 150%;
-  div{
-    width: 100%;
-    height: 1rem;
-    
-    span{
-      width: 4rem;
-    }
-
-    hr{
-      flex: 1;
-      height: 1px;
-      border: none;
-      background-color: ${({ theme }) => theme.Background};
-    }
-
-    &:last-child{
-      padding-bottom: 2rem;
-    }
-  }
-`
-
-
-const TimeTableItem = styled.div`
-  /* @media ${({ theme }) => theme.device.mobile} {
-    width: calc(100% - 6rem);
-    left: 5rem;
-    display: ${({ $isSelected }) => ($isSelected ? "block" : "none")};
-  } */
-  position: absolute;
-  width: calc((100% - 8rem) / 3);
-  height: calc(5rem * 2);
-  left: calc(6rem + ((100% - 8rem) / 3) * 2);
-  top: calc((1.5rem + 5rem * 2));
-  background-color: #333;
-
-  border-radius: 4px;
-  padding: 1rem 1.5rem;
-  border-left: 3px solid #333;
-
-  span {
-    color: ${({ theme }) => theme.Background};
-    font-size: 0.8rem;
-  }
-
-  p {
-    color: #333;
-  }
-`;
-
-const ReserveItem = (item, room) => {
-  // 시작 위치
-  const TIMELIST = [{startTime: "13:10", endTime: "15:30", userGroup: "경제학과", userName: "김현민", userRank: "1"},
-    {startTime: "17:10", endTime: "18:30", userGroup: "경제학과", userName: "김현민", userRank: "1"},
-    {startTime: "13:10", endTime: "15:30", userGroup: "경제학과", userName: "김현민", userRank: "1"},
-    {startTime: "13:10", endTime: "15:30", userGroup: "경제학과", userName: "김현민", userRank: "1"},
-  ]
-
-  const top = TIMELIST.findIndex((time) => time.startTime === item.startTime);
-  console.log(item.startTime)
-  // 높이
-  const [startHour, startMinute] = item.startTime.split(":").map(Number);
-  const [endHour, endMinute] = item.endTime.split(":").map(Number);
-  const diff = (endHour - startHour) * 2 + Number(startMinute !== endMinute);
-
-  return (
-    <TimeTableItem
-      key={item.startTime}
-      $room={room}
-      $top={top}
-      $space={diff}
-      $color={GroupColor(item.userGroup)}
-    >
-      <span>
-        {item.startTime} ~ {item.endTime}
-      </span>
-      <p>
-        {item.userGroup} {item.userName} {item.userRank}
-      </p>
-    </TimeTableItem>
-  );
-};
-
-
 
 export default function Table() {
-  const TIMELIST = [{startTime: "13:10", endTime: "15:30", userGroup: "경제학과", userName: "김현민", userRank: "1"},
-     {startTime: "17:10", endTime: "18:30", userGroup: "경제학과", userName: "김현민", userRank: "1"},
-     {startTime: "13:10", endTime: "15:30", userGroup: "경제학과", userName: "김현민", userRank: "1"},
-     {startTime: "13:10", endTime: "15:30", userGroup: "경제학과", userName: "김현민", userRank: "1"},
-    ]
-    console.log(TIMELIST.findIndex((time) => time === item.startTime))
-
   return (
     <Section>
       <MainStyled>
@@ -234,15 +139,7 @@ export default function Table() {
             <Button>편집</Button>
           </div>
           <div className="innerBottom">
-            <TimeList>
-              {/* {TIMELIST.map(time => (
-                  <div>
-                    
-                    <hr />
-                  </div>
-              ))} */}
-              <ReserveItem item={TIMELIST[0]} room={1}>{time}</ReserveItem>
-            </TimeList>
+
           </div>
         </div>
       </MainStyled>

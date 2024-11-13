@@ -1,6 +1,58 @@
 # EXPONENT
-![스크린샷, 2024-11-04 20-12-52](https://github.com/user-attachments/assets/b27ae526-0bb7-4b5b-b52b-692cc9793954)
+<!-- ![스크린샷, 2024-11-04 20-12-52](https://github.com/user-attachments/assets/b27ae526-0bb7-4b5b-b52b-692cc9793954) -->
 
+
+
+<!-- React, GraphQL (Relay), Emotion, Rsbuild, yarn, Google Analytics, Amplitude, Mixpanel, Sentry, Jest, 크로스브라우징, 브라우저퍼포먼스, 웹 접근성, 모바일 웹 및 모바일 웹뷰 연동
+RestFul API, FE 성능 최적화, Apollo, urql, Event Driven, FP, Stitches, Context API, Tanstack-Query, Graphql Client 등을 활용한 앱 상태관리, Remix
+TypeScript, ReScript, Flow 등 JavaScript 정적 타이핑 툴 경험이 있으신 분, SaaS 창업과 오픈소스, Full-stack Engineering, 본인만의 NPM 패키지, ES Module, CommonJS 
+Gatsby, CMS를 활용한 타 직군과의 협업 경험이 있으신 분 (Contentful, Prismic, Sanity 등), 자체 CMS 개발 경험이 있으신 분
+
+당근의 여러 팀들의 프론트엔드 직군 기술 스택들 -->
+
+
+<!-- 코어: React (TypeScript), GraphQL (Relay)
+전역 상태 관리: Recoil
+스타일링: Emotion
+빌드: Rsbuild
+패키지 매니저: yarn
+테스트: Jest
+CI: Github Actions
+분석: Google Analytics, Amplitude, Mixpanel
+트래킹: Sentry
+
+Jotai, Zustand, jira, Confluence
+
+크로스브라우징, 브라우저퍼포먼스, 웹 접근성
+모바일 웹 및 모바일 웹뷰 연동 개발 경험
+RestFul API, FE 성능 최적화, GraphQL
+Relay, Apollo, urql 등 GraphQL 클라이언트의 사용경험이 있으신 분
+Typescript, GraphQL, Event Driven, FP, Stitches
+Context API, Tanstack-Query, Graphql Client 등을 활용한 앱 상태관리에 대해 고민을 해보신 분
+
+당근알바 기술 스택
+React
+Graphql Relay, Redux
+Typescript
+Stitches
+기술 스택: TypeScript, React, GraphQL, Relay, Remix
+ 
+
+이런 분을 찾고 있어요
+HTML, CSS 및 JavaScript 생태계에 익숙하신 분
+TypeScript, ReScript, Flow 등 JavaScript 정적 타이핑 툴 경험이 있으신 분
+React.js 프로젝트 경험이 있으신 분
+Redux, Recoil 등 상태 관리 도구 사용 경험이 있으신 분
+SaaS 창업과 오픈소스, Full-stack Engineering에 관심있으신 분
+ 
+
+이런 분이면 더 좋아요!
+본인만의 NPM 패키지를 출판해보신 분
+ES Module, CommonJS 등 모듈 시스템에 대한 이해가 깊으신 분
+Node.js를 활용한 서버 개발 경험이 있으신 분
+Gatsby 경험이 있으신 분
+CMS를 활용한 타 직군과의 협업 경험이 있으신 분 (Contentful, Prismic, Sanity 등)
+자체 CMS 개발 경험이 있으신 분 -->
 
 <!-- #5CC6BA, #57BA83, #499AE9, #60BEF9, #499AE6, #2F6EAF -->
 
