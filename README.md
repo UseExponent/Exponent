@@ -1,6 +1,6 @@
-# EXPONENT
 <!-- ![스크린샷, 2024-11-04 20-12-52](https://github.com/user-attachments/assets/b27ae526-0bb7-4b5b-b52b-692cc9793954) -->
 
+![대기화면_1](https://github.com/user-attachments/assets/aba4652a-c2da-44ee-ba71-0203da853824)
 
 
 <!-- React, GraphQL (Relay), Emotion, Rsbuild, yarn, Google Analytics, Amplitude, Mixpanel, Sentry, Jest, 크로스브라우징, 브라우저퍼포먼스, 웹 접근성, 모바일 웹 및 모바일 웹뷰 연동
