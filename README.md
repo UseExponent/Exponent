@@ -2,9 +2,8 @@
 
 ![대기화면_1](https://github.com/user-attachments/assets/aba4652a-c2da-44ee-ba71-0203da853824)
 
-
 <!-- React, GraphQL (Relay), Emotion, Rsbuild, yarn, Google Analytics, Amplitude, Mixpanel, Sentry, Jest, 크로스브라우징, 브라우저퍼포먼스, 웹 접근성, 모바일 웹 및 모바일 웹뷰 연동
-RestFul API, FE 성능 최적화, Apollo, urql, Event Driven, FP, Stitches, Context API, Tanstack-Query, Graphql Client 등을 활용한 앱 상태관리, Remix
+RestFul API, FE 성능 최적화, Apollo, urql, Event Driven, FP, Stitches, Context API, Tanstack-Query, Graphql Client 등을 활용한 앱 상태관리, Remix, ngnix, 
 TypeScript, ReScript, Flow 등 JavaScript 정적 타이핑 툴 경험이 있으신 분, SaaS 창업과 오픈소스, Full-stack Engineering, 본인만의 NPM 패키지, ES Module, CommonJS 
 Gatsby, CMS를 활용한 타 직군과의 협업 경험이 있으신 분 (Contentful, Prismic, Sanity 등), 자체 CMS 개발 경험이 있으신 분
 
