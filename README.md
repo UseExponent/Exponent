@@ -9,6 +9,13 @@ Gatsby, CMS를 활용한 타 직군과의 협업 경험이 있으신 분 (Conten
 
 당근의 여러 팀들의 프론트엔드 직군 기술 스택들 -->
 
+<!--
+군대에서 RN 개발 이 두 개부터 정독 후 개발하기********************************************************************
+
+https://velog.io/@jon/react-native-%EC%A0%84%EC%97%AD%EC%9D%BC%EA%B3%84%EC%82%B0%EA%B8%B0%EC%95%B1-%EA%B5%B0%EB%8F%8C%EC%9D%B4-%EA%B0%9C%EB%B0%9C%EA%B8%B0-2
+
+https://www.google.com/search?q=%EA%B5%B0%EB%8C%80%EC%97%90%EC%84%9C+React+native&client=ubuntu&hs=GB1&sca_esv=ff4380769abef046&ei=pYU4Z4z_NIrR2roPg-Ly-QY&ved=0ahUKEwjM5biq4-CJAxWKqFYBHQOxPG8Q4dUDCA8&uact=5&oq=%EA%B5%B0%EB%8C%80%EC%97%90%EC%84%9C+React+native&gs_lp=Egxnd3Mtd2l6LXNlcnAiGeq1sOuMgOyXkOyEnCBSZWFjdCBuYXRpdmUyBRAhGKABMgUQIRigATIFECEYoAFIgBNQwAdY8RFwAXgBkAEAmAGLAaAB4Q2qAQQwLjE0uAEDyAEA-AEBmAIPoALvDsICChAAGLADGNYEGEfCAgUQABiABMICCRAhGKABGAoYKsICBxAhGKABGArCAgQQIRgVmAMAiAYBkAYKkgcEMS4xNKAHjDM&sclient=gws-wiz-serp
+-->
 
 <!-- 코어: React (TypeScript), GraphQL (Relay)
 전역 상태 관리: Recoil
