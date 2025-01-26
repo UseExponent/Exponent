@@ -1,6 +1,14 @@
 <!-- ![스크린샷, 2024-11-04 20-12-52](https://github.com/user-attachments/assets/b27ae526-0bb7-4b5b-b52b-692cc9793954) -->
 
-![대기화면_1](https://github.com/user-attachments/assets/aba4652a-c2da-44ee-ba71-0203da853824)
+
+
+<p align="center">  <img src="https://github.com/user-attachments/assets/b320fdcc-1142-4ec7-a261-3b92a4d9f89c" align="center" width="19%">  <img src="https://github.com/user-attachments/assets/5040a746-5943-4518-abd3-772367347d6e" align="center" width="19%">  <img src="https://github.com/user-attachments/assets/59e109c7-8ed4-43f6-99a7-5e031e8eaed9" align="center" width="19%"> <img src="https://github.com/user-attachments/assets/72c0964f-be6c-4e3a-ab86-ee50e338aaab" align="center" width="19%"> <img src="https://github.com/user-attachments/assets/ff56b089-1172-4f08-9275-98777e006938" align="center" width="19%"></p>
+
+#### 백엔드의 부재와 Expo Snack의 한계, 미완성인 부분도 있지만 코드 증발로 인한 폐기.
+
+## But.
+
+인생 첫 RN으로써 재미있었고 앱개발 입문의 시발점이 될만한 불씨였다고 생각한다, 군생활중 뭐라도 건져야겠다
 
 <!-- React, GraphQL (Relay), Emotion, Rsbuild, yarn, Google Analytics, Amplitude, Mixpanel, Sentry, Jest, 크로스브라우징, 브라우저퍼포먼스, 웹 접근성, 모바일 웹 및 모바일 웹뷰 연동
 RestFul API, FE 성능 최적화, Apollo, urql, Event Driven, FP, Stitches, Context API, Tanstack-Query, Graphql Client 등을 활용한 앱 상태관리, Remix, ngnix, 
